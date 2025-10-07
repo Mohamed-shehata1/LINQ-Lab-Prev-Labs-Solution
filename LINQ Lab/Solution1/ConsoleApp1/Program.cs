@@ -451,7 +451,7 @@ namespace ConsoleApp1
             foreach (var g in dictByFirst)
             {
                 Console.WriteLine(g.Key + ":");
-                foreach (var w in g.Take(5)) // show sample to keep output reasonable
+                foreach (var w in g.Take(5))
                     Console.WriteLine("  " + w);
             }
 
